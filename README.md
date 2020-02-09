@@ -2,6 +2,8 @@
 
 ## 2019 - 2020 Bahar Dönemi Nesne Tabanlı Programlama Ders Notları (Python)
 
+### Faydalı Linkler
+
 Python 3 Dersleri - https://www.youtube.com/playlist?list=PLIHume2cwmHehcxQE1XZieL21syR3m3tR
 
 Python ile Nesne Tabanlı Programlama - https://www.youtube.com/playlist?list=PLQoYY0GU_Tk9otubzE0rIQrP2NiiYVnEg
