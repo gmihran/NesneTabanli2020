@@ -21,7 +21,8 @@ print(strsayi[::-1]) #string değer ile string parçalama işlemi yapılabilir
 sayi=int(input("Sayı:")) #Kullanıcıdan integer veri tipinde bir değer aldık
 sayi2=sayi #sayının içeriğini değiştirmemek adına kopyasını aldık
 while(sayi2>=10):
-    print(sayi2%10,end="") #print içerisine yazılan end="" kodu alt satıra geçmeden yazma işleminin sürdürülmesini sağlar
+    print(sayi2%10,end="") 
+    #print içerisine yazılan end="" kodu alt satıra geçmeden yazma işleminin sürdürülmesini sağlar
     sayi2=int(sayi2/10)
 print(sayi2)
 
@@ -154,7 +155,7 @@ print(type(liste))
 
 #tuple oluşturalım
 #tuple değiştirilemeyen listelerdir
-#okunabilir ama üzerine yazılamayan listelerdir
+#okunabilir ama üzerinde değişiklik yapılamayan listelerdir
 sayilar=(1,2,3)
 print(sayilar)
 print(type(sayilar))
