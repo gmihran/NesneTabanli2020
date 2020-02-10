@@ -57,7 +57,8 @@ print(kelime[::2])
 
 # Girilen sayının tam sayı olup olmadığını yazdıralım
 sayi=eval(input("Sayı:"))
-#eval klavyeden girilen değer tam sayı ise int, ondalıklı sayı ise float değişkende saklanmasını sağlar
+#eval klavyeden girilen değer tam sayı ise int, 
+#ondalıklı sayı ise float değişkende saklanmasını sağlar
 print(type(sayi))
 if type(sayi)==int:
     #Ör: 12 
@@ -185,7 +186,8 @@ else:
 
 #Çalışma ödevi: 1 ile 10000 arasındaki mükemmel sayıları ekrana yazdıralım
 
-#Kullanıcıdan alınan 4 kenar bilgisine göre şeklin dikdörtgen, kare veya diğer dörtgen olduğunu söylesin
+#Kullanıcıdan alınan 4 kenar bilgisine göre şeklin 
+#dikdörtgen, kare veya diğer dörtgen olduğunu söylesin
 
 #Çarpım tablosu
 """
