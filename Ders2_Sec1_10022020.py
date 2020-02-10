@@ -35,7 +35,7 @@ while(sayi2>=1):
     sayi2=sayi2//10 #bölüm işleminde sadece tam kısmını almamızı sağlar, ondalık kısmını atıyoruz 
 print(ters)
   
-#String bir ifadedeki tüm harflerin arasına virgül koyarak yanyana ekrana yazdıralım
+#String bir ifadedeki tüm harflerin arasına virgül koyarak yan yana ekrana yazdıralım
 kelime="Beykoz Üniversitesi"
 for harf in kelime:
     print(harf,end=",") #end="," kodunu kullanmazsak tüm harfleri alt alta yazdırırız
