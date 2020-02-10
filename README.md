@@ -10,6 +10,8 @@ Python ile Nesne Tabanlı Programlama - https://www.youtube.com/playlist?list=PL
 
 Sıfırdan İleri Seviye Herkes İçin Python Programlama Dersleri - https://www.youtube.com/playlist?list=PLK6Whnd55IH5i1klkNSBDasIaO77l-Bm9
 
+Python ile Veri Bilimi Cheat Sheets - https://www.youtube.com/playlist?list=PLQoYY0GU_Tk-Hv36eoYbnnAkG6twwl3Xu
+
 Jupyter Notebook Klavye Kısayolları - https://defkey.com/tr/jupyter-notebook-klavye-kisayollari
 
 ### Önerilen Udemy Eğitimleri
