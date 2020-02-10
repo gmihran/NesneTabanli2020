@@ -235,9 +235,8 @@ print("*".join(isim))
 #her harften sonra boşluk karakteri ekler
 
 print(len(isim))
-"""
 #isim değişkenin tuttuğu değerin karakter sayısını verir
-
+"""
 #Girilen bir kelimede tüm "a" harflerinin kaçıncı karakter olduğunu veren program
 
 #Kelimenin Palindrom olup olmadığını bulan program
