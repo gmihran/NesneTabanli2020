@@ -16,4 +16,6 @@ Jupyter Notebook Klavye Kısayolları - https://defkey.com/tr/jupyter-notebook-k
 
 83+ Saatlik Aranan Programcı Olma Kamp Kursu: JAVA,PYTHON,C# - https://www.udemy.com/course/programcilik-kursu/
 
+Python ile Nesne Tabanlı Programlama A-Z™ (Ücretsiz)- https://www.udemy.com/course/python-nesne-tabanli-programlama/
+
 (42 Saat) Python : Sıfırdan İleri Seviye Programlama (2019) - https://www.udemy.com/course/sifirdan-ileri-seviyeye-python/
