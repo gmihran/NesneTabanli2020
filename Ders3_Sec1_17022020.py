@@ -58,7 +58,7 @@ for sayi in range(51,72,2):
 print(teksayilar)
 
 #Kullanıcıdan 10 tane değer isteyelim
-#Bu değerlerden sadece pozitif olanları pozitif listesinde tutalım
+#Bu değerlerden sadece pozitif olanları pozitif listesinde tutalım ve ekrana yazdıralım
 #%% 
 pozitif=[]
 for i in range(10):
@@ -70,6 +70,7 @@ print(pozitif)
 
 #1 ile 2 arasında bir değer üretip ekrana yazdıralım
 #%%
+import random
 a=random.randint(1,2)
 print(a)
 
@@ -97,7 +98,6 @@ print("Tüm sayılar\n",rastgele)
 #Çıktı: b1e2y3k4o5z6
 #Ör: Kullanıcı "kedi" girdiyse
 #Çıktı: k1e2d3i4
-#kelime="beykoz"
 #%%
 kelime=input("Kelime..:")
 #1.yöntem:
@@ -120,6 +120,7 @@ print(kelimee)
 
 #Kullanıcıdan adı, numarası bilgisi alalım
 #adının ilk 2 harfi, numarasının son 2 harfi, bir tane rastgele özel karakter ve adının son harfini alarak bir şifre oluşturalım
+#ozel karakterler ="#.,-_()%&@?+"
 #%%
 adi=input("Adınız:")
 no=input("Numaranız:")
@@ -132,6 +133,7 @@ sifre3.append(no[len(no)-2:])
 ozel="#.,-_()%&@?+"
 sifre3.append(ozel[random.randint(0,len(ozel)-1)])
 sifre3.append(adi[len(adi)-1])
+#sifre3.append(adi[-1:])
 print(sifre3)
 strsifre=""
 
