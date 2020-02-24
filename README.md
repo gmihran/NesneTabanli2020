@@ -23,3 +23,7 @@ Python 3 için Türkçe Kaynak - https://python-istihza.yazbel.com/
 Python ile Nesne Tabanlı Programlama A-Z™ (Ücretsiz)- https://www.udemy.com/course/python-nesne-tabanli-programlama/
 
 (42 Saat) Python : Sıfırdan İleri Seviye Programlama (2019) - https://www.udemy.com/course/sifirdan-ileri-seviyeye-python/
+
+Python 3: A' dan Z' ye Programlama (Ücretsiz) - https://www.udemy.com/course/python3-ile-a-dan-z-ye-programlama/
+
+Komple Uygulamalı - Nesneye Yönelik Programlama Eğitimi (Ücretsiz) https://www.udemy.com/course/komple-uygulamali-nesne-yonelimli-programlama-egitimi/
