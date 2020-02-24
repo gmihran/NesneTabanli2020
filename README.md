@@ -14,6 +14,8 @@ Python ile Veri Bilimi Cheat Sheets - https://www.youtube.com/playlist?list=PLQo
 
 Jupyter Notebook Klavye Kısayolları - https://defkey.com/tr/jupyter-notebook-klavye-kisayollari
 
+Python 3 için Türkçe Kaynak - https://python-istihza.yazbel.com/
+
 ### Önerilen Udemy Eğitimleri
 
 83+ Saatlik Aranan Programcı Olma Kamp Kursu: JAVA,PYTHON,C# - https://www.udemy.com/course/programcilik-kursu/
