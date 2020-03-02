@@ -85,6 +85,15 @@ print(10/3)  #3.3333333333333335
 #%%
 banknotlar=[200,100,50,20,10,5,1]
 miktarlar=[]
+tutar=int(input("Para:"))
+tutaryedek=tutar
+for i in banknotlar:
+    miktarlar.append(tutaryedek//i)
+    tutaryedek=tutaryedek%i
+for i in range(0,7):
+    if miktarlar[i]!=0:
+        print(miktarlar[i]," tane ",banknotlar[i])
+#%%
 """
 1.Başla
 2.banknotlar=[200,100,50,20,10,5,1]
@@ -100,41 +109,66 @@ miktarlar=[]
 12.Döngü bitir (i)
 13.Bitir
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
+#range(7) veya range(0,7) kullanılabilir
 
 #Bu örneği fonksiyon haline getirelim:
 #%%   
+def banknot(tutar):
+    banknotlar=[200,100,50,20,10,5,1]
+    miktarlar=[]
+    for i in banknotlar:
+        miktarlar.append(tutar//i)
+        tutar=tutar%i
+    for i in range(0,7):
+        if miktarlar[i]!=0:
+            print(miktarlar[i]," tane ",banknotlar[i])
 
-
-
+tutar=int(input("Para:"))
+banknot(tutar)
 #%%
 demet=(1,2,3)
 liste=[1,2,3]
 
+demet=(3,4,5) #bütün haliyle değişiklik mümkündür. Parça halinde değişiklik olamaz.
+#demet[0]=6 #hata oluşur. Demetler değiştirilemez. Sadece okunabilir.
+#Listede fonksiyon çeşitliliği demete göre daha fazladır.
+liste[0]=5 #liste değiştirilebilir
+
 #Sözlükler (dictionary)
 sayilar={1:"bir",2:"iki",3:"üç",4:"dört",5:"beş"}
+print(sayilar.items())
+print(sayilar.keys())
+print(sayilar.values())
+print(sayilar[1])
+print(sayilar.get(1,"sayı bulunamadı")) #Çıktı: bir
+print(sayilar.get(6,"sayı bulunamadı")) #Çıktı: sayı bulunamadı
+sayilar.setdefault(1,"BİR") #sözlükte bu değer olduğu için 1 değeri değişmedi
+sayilar.setdefault(6,"altı") #sözlükte bu değer olmadığı için 6 değerini sözlüğe ekler
 
+sayilar[7]="yedi"
+print(sayilar)
 
+sayilar.pop(7)
+print(sayilar.items())
 
+sayilar.pop(2)
+print(sayilar)
 #%%
 #sozluk={key1:value1,key2:value2:...}
 #sozluk={anahtar1:değer1,anahtar2:değer2:...}
 
 sozluk={"elma":"apple","muz":"banana","barış":"peace","kuzey":"north","güney":"south","bilgisayar":"computer"}
-
-
+deger=input("Kelime:")
+print(sozluk.get(deger,"bulunamadı"))
+#print(sozluk[deger])
+try:
+    print(sozluk[deger])
+except:
+    durum=input("Kelime bulunmadı. Sözlüğe eklemek ister misiniz? E/H:")
+    if durum=="E":
+        deger2=input("İngilizce karşılığı:")
+        sozluk[deger]=deger2
+print(sozluk)
 #%%
 
 gün=input("Gün:").title()
