@@ -26,21 +26,38 @@ def fonksiyon_adı(parametre1,parametre2..... (opsiyonel)):
 
 #Kendisine gönderilen iki sayının toplamını bulan fonksiyonu yazınız ve fonksiyonu çağırınız.
 #%%
-
+def topla(s1,s2):
+    print(s1+s2)
+topla(5,6)
+topla(5.2,6.4)
+topla(4,2.3)
 
 
 #%%
 ##Fonksiyonun içerisinde girilen iki sayının toplamını bulan fonksiyonu yazınız ve fonksiyonu çağırınız.
 #%%
-
-
-
+def topla():
+    s1=eval(input("Sayı 1:"))
+    s2=eval(input("Sayı 2:"))
+    #eval : Değişken türüne kendisi karar verir. 
+    #Tamsayı girilirse int, ondalıklı sayı girilirse float olarak saklar
+    print(s1+s2)
+topla()
 
 #%%
 #Girilen iki sayının birbirine tam bölünüp bölünemediğinin
 #çıktısını veren kodu yazınız
 #Mod alma : % işareti ile kontrol edilir
 #Eğer mod sonucu 0 ise "bölünebilir", değilse "bölünemez"
+#%%
+def mod():
+    bolunen=int(input("Bölünen:"))
+    bolen=int(input("Bölen:"))
+    if bolunen%bolen==0:
+        print("Bölünebilir")
+    else:
+        print("Bölünemez")
+mod()
 #%%
 """
 1.Başla
@@ -53,8 +70,10 @@ def fonksiyon_adı(parametre1,parametre2..... (opsiyonel)):
 7.Bitir    
 """
 
-
-
+#%%
+print(10//3) #3
+print(10%3)  #1
+print(10/3)  #3.3333333333333335
 
 #%%
 #Klavyeden girilen para miktarını banknotlara ayıran programı yazınız. 
@@ -63,9 +82,35 @@ def fonksiyon_adı(parametre1,parametre2..... (opsiyonel)):
 #26 -> 1 tane 20, 1 tane 5, 1 tane 1
 #358-> 1 tane 200, 1 tane 100, 1 tane 50, 1 tane 5, 3 tane 1
 #555 -> 2 tane 200, 1 tane 100, 1 tane 50, 1 tane 5
-
-
 #%%
+banknotlar=[200,100,50,20,10,5,1]
+miktarlar=[]
+"""
+1.Başla
+2.banknotlar=[200,100,50,20,10,5,1]
+3.miktarlar=[]
+4.Oku tutar
+5.tutaryedek=tutar
+6.Döngü başlat i in banknotlar
+7.miktarlar.append(tutaryedek//i)
+8.tutaryedek=tutaryedek%i
+9.Döngü bitir (i)
+10.Döngü başlat i=0,6,1
+11.Eğer miktarlar[i]!=0 ise Yaz miktarlar[i]," tane ",banknotlar[i]
+12.Döngü bitir (i)
+13.Bitir
+"""
+
+
+
+
+
+
+
+
+
+
+
 
 
 
