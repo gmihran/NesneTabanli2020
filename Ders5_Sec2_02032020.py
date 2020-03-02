@@ -182,9 +182,12 @@ gün=input("Gün:").title()
 #farklı çözümlerde kullanılabilir
 #sozluk={key1:value1,key2:value2:...}
 #sozluk={anahtar1:değer1,anahtar2:değer2:...}
-
-
-
+günler={"Pazartesi":1,"Salı":2,"Çarşamba":3,"Perşembe":4,"Cuma":5,"Cumartesi":6,"Pazar":7}
+gün=input("Gün:")
+gün=gün.replace("I","ı").replace("İ","i").title()
+print(gün)
+print(günler.get(gün,"hatalı değer"))
+#%%
 """
 1-Pazartesi
 8-Pazartesi
@@ -192,7 +195,9 @@ gün=input("Gün:").title()
 14-Pazar
 """
 #%%
-
+günler={1:"Pazartesi",2:"Salı",3:"Çarşamba",4:"Perşembe",5:"Cuma",6:"Cumartesi",0:"Pazar"}
+deger=int(input("Gün değeri:"))
+print(günler.get(deger%7,"Bulunamadı"))
 
 #%%
 #Listeyi sıralama:
@@ -208,6 +213,30 @@ print(liste)
 #Kullanıcıdan 5 tane sayı isteyelim kaç tane sayıyı doğru tahmin ettiğini yazdıralım
 #Not: Üretilen sayılar benzersiz olmalı ve sayılar sıralı olmalı
 #%%
+import random
+rastgele=[]
+for i in range(6):
+    while True:
+        kontrol=False
+        sayi=random.randint(1,45)
+        if sayi in rastgele:
+            kontrol=True
+        if kontrol==False:
+            break
+    rastgele.append(sayi)
+rastgele.sort()
+print(rastgele)
+sayılar=[]
+miktar=0
+for i in range(5):
+    sayılar.append(int(input("Sayı:")))
+for i in rastgele:
+    if i in sayılar:
+        print(i)
+        miktar+=1
+print("Miktar:",miktar)
+
+
 
 
 #%%
