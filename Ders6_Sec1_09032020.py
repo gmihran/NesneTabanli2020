@@ -168,5 +168,13 @@ dict (sözlük) {}
 #Kod soruları (for, while, if...)
 #Fonksiyonlar (metodlar)
 #Girilen 10 sayıdan tek sayıları listeye atayıp listeyi ekrana yazdırınız.
-
-
+"""
+1.başla
+2.teksayilar=[]
+3.Döngü başlat i (10)
+4.Oku sayi
+5.Eğer sayi%2=1 ise teksayilar.append(sayi)
+6.Döngü bitir
+7.Yaz teksayilar
+8.Bitir
+"""
