@@ -4,6 +4,16 @@ Created on Mon Apr 13 09:58:41 2020
 
 @author: Gözde Mihran Altınsoy
 """
+#Vize Sınavı: 27 Nisan Pazartesi
+
+#Nesne tabanlı programlama nedir ve neden kullanılır? Örnekle açıklayınız.
+#Nesne tabanlı (yönelimli) programlamanın artıları nelerdir?
+#Neden kullanıyoruz? 
+#Nesne tabanlı programlamanın yapısını ve özelliklerini araştırınız.
+#Bununla ilgili bir örnek oluşturunuz.
+
+
+#Inheritance (miras alma, kalıtım)
 
 #class'ların ilk harfi büyük harf olmalıdır.
 class Bilgisayar:
@@ -13,8 +23,7 @@ class Bilgisayar:
         #Attribute (nitelik,özellik)
     
 
-#Bilgisayar Parçaları
-#Inheritance (miras alma, kalıtım)
+
 class Minibilgisayar(Bilgisayar): #Child (çocuk)
     
     def __init__(self,guc=165): #self Hangi nesneyi referans gösterdiğini ifade eder
