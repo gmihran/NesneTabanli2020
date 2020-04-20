@@ -18,7 +18,8 @@ class Oyuncu():
         #Sadece sınıf içerisinden erişilebilir. Dışarıdan erişebilir değildir
         
         self._gizli=1
-         #Buradaki yarı gizli olan niteliğe sınıf içinden veya dışından erişmemizi engelleyen veya zorlaştıran hiçbir mekanizma bulunmaz. Ama biz bir sınıf içinde tek alt çizgi ile başlayan bir öğe gördüğümüzde, bunun sınıfın iç işleyişine ilişkin bir ayrıntı olduğunu, sınıf dışından bu öğeyi değiştirmeye kalkışmamamız gerektiğini anlarız.
+         #Buradaki yarı gizli olan niteliğe sınıf içinden veya dışından erişmemizi engelleyen veya zorlaştıran hiçbir mekanizma bulunmaz. 
+         #Ama biz bir sınıf içinde tek alt çizgi ile başlayan bir öğe gördüğümüzde, bunun sınıfın iç işleyişine ilişkin bir ayrıntı olduğunu, sınıf dışından bu öğeyi değiştirmeye kalkışmamamız gerektiğini anlarız.
         
     def Get_gizli(self):
         print("Gizli yazdırılıyor.",self.__gizli)
