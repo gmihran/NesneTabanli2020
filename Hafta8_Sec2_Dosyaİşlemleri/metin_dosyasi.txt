@@ -1,5 +1,0 @@
-merhaba
-nasýlsýnýz?
-Ýyiyim
-Dersler baþladý
-Python ile dosyalar konusunu iþliyoruz
